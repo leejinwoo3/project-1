@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #032541;
+}
+.header img {
+  margin-left: 20px;
+}
+.header a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* 제목 div */
+.content2 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+/* 메인 div */
+.wrap {
+  background-color: black;
+}
+.images > div > a > img {
+  width: 235px;
+  height: 235px;
+}
+
+.container > .title > h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.images > div > span {
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+.images > div > a {
+  display: flex;
+  margin: 10px;
+}
+.back {
+  border: 1px solid white;
+  padding-left: 22px;
+}
+/* 푸터 */
+.fotttttt {
+  margin-top: 10px;
+}
+
+footer {
+  height: 150px;
+}
+
+footer > div:nth-child(1) {
+  background: #032541;
+  height: 50px;
+  text-align: left;
+  line-height: 50px;
+}
+
+footer > div:nth-child(2) {
+  background: #032541;
+  height: 100px;
+  padding-top: 30px;
+}
+
+footer > div:nth-child(2) > div {
+  font-size: 13px;
+  text-align: center;
+}
+
+footer a {
+  margin-left: 30px;
+  text-decoration: none !important;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.images > .col-md-2 {
+  margin: 10px 0;
+}
+.conta > .container2 {
+  color: white;
+}
+
+.fotttttt 

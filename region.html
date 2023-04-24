@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 폰트어썸 -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.3.0-web/css/fontawesome.css"
+    />
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/brands.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/solid.css" />
+
+    <!-- 부트스트랩 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/region.css" />
+  </head>
+  <body>
+    <!-- 머리 -->
+    <header class="header">
+      <img src="./image/tmdbbanner.PNG" alt="" />
+      <a href="#" class="content">영화</a>
+      <a href="#" class="content">TV프로그램</a>
+      <a href="#" class="content">인물</a>
+      <a href="#" class="content">more</a>
+    </header>
+    <!-- 몸통 -->
+    <div class="wrap">
+      <div class="container">
+        <div class="content">
+          <section>
+            <div class="container row images"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://image.tmdb.org/t/p/w500"
+                class="img-fluid rounded-start weather_img"
+                alt="현재기상"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">이름</h5>
+                <p class="card-gender">성별</p>
+                <p class="card-text"><small class="popularity">인기</small></p>
+                <p class="card-text">
+                  <small class="profile_path">프로필</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 푸터 -->
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- js -->
+    <script src="./js/region.js"></script>
+  </body>
+</html>
