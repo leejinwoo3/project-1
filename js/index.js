@@ -10,14 +10,13 @@ $.ajax({
 
     const results = data.results;
     console.log("사람 이름", results);
-
     for (const result of results) {
       console.log(result);
       console.log("이름: ", result.title);
       console.log("성별: ", result.gender);
       console.log("인기: ", result.popularity);
-      console.log("포스터: ", result.profile_path);
-      console.log("오버뷰", result.known_for.overview);
+      console.log("프로필: ", result.profile_path);
+      console.log("생일", result.birthday);
 
       let imgURL = "https://image.tmdb.org/t/p/w500" + result.profile_path;
 
@@ -31,15 +30,18 @@ $.ajax({
           width="100%" height="80%"  >
           </a>
           <span style=" text-align: center; display: block; font-weight : bold;
-          " class="style";>${result.name}
+          " class="style";>이름 : ${result.name}
           </span>
          <span style=" text-align: center; display: block; font-weight : bold;
           " class="style";>id번호:${result.id}
           </span>
           <span style=" text-align: center; display: block; font-weight : bold;
-          " class="style";>${result.known_for.overview}
+          " class="style";>성별 :${result.gender}
+         
           </span>
-        }
+              <span style=" text-align: center; display: block; font-weight : bold;
+          " class="style";>인기순위 : ${result.popularity}
+        
         `
         // ``<a href="./detail.html?id=${result.name}"><img src=""></a>`
       );
